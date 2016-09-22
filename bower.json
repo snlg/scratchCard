@@ -1,0 +1,8 @@
+{
+  "name": "ix-whackmole",
+  "version": "1.0.0",
+  "dependencies": {
+    "docs-template": "git@gitlab.alibaba-inc.com:h5-interaction/docs-template.git",
+    "grunt-jsdoc-to-markdown": "git@gitlab.alibaba-inc.com:h5-interaction/grunt-jsdoc-to-markdown.git"
+  }
+}

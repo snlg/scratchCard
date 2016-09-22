@@ -1,0 +1,452 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\qs\\AppData\\Roaming\\npm\\node_modules\\tnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--cache=C:\\Users\\qs\\AppData\\Roaming\\tnpm-cache',
+1 verbose cli   '--node_sqlite3_binary_host_mirror=https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/',
+1 verbose cli   '--fse_binary_host_mirror=https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/fsevents/',
+1 verbose cli   '--no-proxy',
+1 verbose cli   '--disturl=https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/node',
+1 verbose cli   '--userconfig=C:\\Users\\qs\\.tnpmrc',
+1 verbose cli   '--registry=http://registry.npm.alibaba-inc.com' ]
+2 info using npm@2.15.9
+3 info using node@v6.2.0
+4 verbose readDependencies loading dependencies from e:\aliMusic\ix-scratchcard-master-4c48355c55a8071ffb78552d3a8c85eead3ea04e\package.json
+5 verbose install where, deps [ 'e:\\aliMusic\\ix-scratchcard-master-4c48355c55a8071ffb78552d3a8c85eead3ea04e',
+5 verbose install   [ 'grunt',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-jsdoc',
+5 verbose install     'grunt-bower-task',
+5 verbose install     'grunt-contrib-watch' ] ]
+6 verbose install where, peers [ 'e:\\aliMusic\\ix-scratchcard-master-4c48355c55a8071ffb78552d3a8c85eead3ea04e',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle e:\aliMusic\ix-scratchcard-master-4c48355c55a8071ffb78552d3a8c85eead3ea04e\package.json
+8 info preinstall ix-scratchcard@1.0.0
+9 verbose readDependencies loading dependencies from e:\aliMusic\ix-scratchcard-master-4c48355c55a8071ffb78552d3a8c85eead3ea04e\package.json
+10 silly cache add args [ 'grunt@~0.4.2', null ]
+11 verbose cache add spec grunt@~0.4.2
+12 silly cache add args [ 'grunt-contrib-copy@~0.4.0', null ]
+13 verbose cache add spec grunt-contrib-copy@~0.4.0
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'grunt@~0.4.2',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'grunt',
+14 silly cache add   rawSpec: '~0.4.2',
+14 silly cache add   spec: '>=0.4.2 <0.5.0',
+14 silly cache add   type: 'range' }
+15 silly addNamed grunt@>=0.4.2 <0.5.0
+16 verbose addNamed ">=0.4.2 <0.5.0" is a valid semver range for grunt
+17 silly addNameRange { name: 'grunt', range: '>=0.4.2 <0.5.0', hasData: false }
+18 silly mapToRegistry name grunt
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'grunt',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   name: 'grunt',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/grunt
+23 verbose addNameRange registry:http://registry.npm.alibaba-inc.com/grunt not in flight; fetching
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'grunt-contrib-copy@~0.4.0',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'grunt-contrib-copy',
+24 silly cache add   rawSpec: '~0.4.0',
+24 silly cache add   spec: '>=0.4.0 <0.5.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed grunt-contrib-copy@>=0.4.0 <0.5.0
+26 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for grunt-contrib-copy
+27 silly addNameRange { name: 'grunt-contrib-copy',
+27 silly addNameRange   range: '>=0.4.0 <0.5.0',
+27 silly addNameRange   hasData: false }
+28 silly mapToRegistry name grunt-contrib-copy
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'grunt-contrib-copy',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'grunt-contrib-copy',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/grunt-contrib-copy
+33 verbose addNameRange registry:http://registry.npm.alibaba-inc.com/grunt-contrib-copy not in flight; fetching
+34 silly cache add args [ 'grunt-contrib-uglify@~0.2.0', null ]
+35 verbose cache add spec grunt-contrib-uglify@~0.2.0
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: 'grunt-contrib-uglify@~0.2.0',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'grunt-contrib-uglify',
+36 silly cache add   rawSpec: '~0.2.0',
+36 silly cache add   spec: '>=0.2.0 <0.3.0',
+36 silly cache add   type: 'range' }
+37 silly addNamed grunt-contrib-uglify@>=0.2.0 <0.3.0
+38 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for grunt-contrib-uglify
+39 silly addNameRange { name: 'grunt-contrib-uglify',
+39 silly addNameRange   range: '>=0.2.0 <0.3.0',
+39 silly addNameRange   hasData: false }
+40 silly mapToRegistry name grunt-contrib-uglify
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+43 silly mapToRegistry data Result {
+43 silly mapToRegistry   raw: 'grunt-contrib-uglify',
+43 silly mapToRegistry   scope: null,
+43 silly mapToRegistry   name: 'grunt-contrib-uglify',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag' }
+44 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/grunt-contrib-uglify
+45 verbose addNameRange registry:http://registry.npm.alibaba-inc.com/grunt-contrib-uglify not in flight; fetching
+46 silly cache add args [ 'grunt-contrib-concat@~0.3.0', null ]
+47 verbose cache add spec grunt-contrib-concat@~0.3.0
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: 'grunt-contrib-concat@~0.3.0',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'grunt-contrib-concat',
+48 silly cache add   rawSpec: '~0.3.0',
+48 silly cache add   spec: '>=0.3.0 <0.4.0',
+48 silly cache add   type: 'range' }
+49 silly addNamed grunt-contrib-concat@>=0.3.0 <0.4.0
+50 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for grunt-contrib-concat
+51 silly addNameRange { name: 'grunt-contrib-concat',
+51 silly addNameRange   range: '>=0.3.0 <0.4.0',
+51 silly addNameRange   hasData: false }
+52 silly mapToRegistry name grunt-contrib-concat
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+55 silly mapToRegistry data Result {
+55 silly mapToRegistry   raw: 'grunt-contrib-concat',
+55 silly mapToRegistry   scope: null,
+55 silly mapToRegistry   name: 'grunt-contrib-concat',
+55 silly mapToRegistry   rawSpec: '',
+55 silly mapToRegistry   spec: 'latest',
+55 silly mapToRegistry   type: 'tag' }
+56 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/grunt-contrib-concat
+57 verbose addNameRange registry:http://registry.npm.alibaba-inc.com/grunt-contrib-concat not in flight; fetching
+58 silly cache add args [ 'grunt-jsdoc@<=3.3.0', null ]
+59 verbose cache add spec grunt-jsdoc@<=3.3.0
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: 'grunt-jsdoc@<=3.3.0',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'grunt-jsdoc',
+60 silly cache add   rawSpec: '<=3.3.0',
+60 silly cache add   spec: '<=3.3.0',
+60 silly cache add   type: 'range' }
+61 silly addNamed grunt-jsdoc@<=3.3.0
+62 verbose addNamed "<=3.3.0" is a valid semver range for grunt-jsdoc
+63 silly addNameRange { name: 'grunt-jsdoc', range: '<=3.3.0', hasData: false }
+64 silly mapToRegistry name grunt-jsdoc
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'grunt-jsdoc',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   name: 'grunt-jsdoc',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/grunt-jsdoc
+69 verbose addNameRange registry:http://registry.npm.alibaba-inc.com/grunt-jsdoc not in flight; fetching
+70 silly cache add args [ 'grunt-bower-task@~0.4.0', null ]
+71 verbose cache add spec grunt-bower-task@~0.4.0
+72 silly cache add parsed spec Result {
+72 silly cache add   raw: 'grunt-bower-task@~0.4.0',
+72 silly cache add   scope: null,
+72 silly cache add   name: 'grunt-bower-task',
+72 silly cache add   rawSpec: '~0.4.0',
+72 silly cache add   spec: '>=0.4.0 <0.5.0',
+72 silly cache add   type: 'range' }
+73 silly addNamed grunt-bower-task@>=0.4.0 <0.5.0
+74 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for grunt-bower-task
+75 silly addNameRange { name: 'grunt-bower-task',
+75 silly addNameRange   range: '>=0.4.0 <0.5.0',
+75 silly addNameRange   hasData: false }
+76 silly mapToRegistry name grunt-bower-task
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+79 silly mapToRegistry data Result {
+79 silly mapToRegistry   raw: 'grunt-bower-task',
+79 silly mapToRegistry   scope: null,
+79 silly mapToRegistry   name: 'grunt-bower-task',
+79 silly mapToRegistry   rawSpec: '',
+79 silly mapToRegistry   spec: 'latest',
+79 silly mapToRegistry   type: 'tag' }
+80 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/grunt-bower-task
+81 verbose addNameRange registry:http://registry.npm.alibaba-inc.com/grunt-bower-task not in flight; fetching
+82 silly cache add args [ 'grunt-contrib-watch@~0.6.1', null ]
+83 verbose cache add spec grunt-contrib-watch@~0.6.1
+84 silly cache add parsed spec Result {
+84 silly cache add   raw: 'grunt-contrib-watch@~0.6.1',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'grunt-contrib-watch',
+84 silly cache add   rawSpec: '~0.6.1',
+84 silly cache add   spec: '>=0.6.1 <0.7.0',
+84 silly cache add   type: 'range' }
+85 silly addNamed grunt-contrib-watch@>=0.6.1 <0.7.0
+86 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for grunt-contrib-watch
+87 silly addNameRange { name: 'grunt-contrib-watch',
+87 silly addNameRange   range: '>=0.6.1 <0.7.0',
+87 silly addNameRange   hasData: false }
+88 silly mapToRegistry name grunt-contrib-watch
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry http://registry.npm.alibaba-inc.com/
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: 'grunt-contrib-watch',
+91 silly mapToRegistry   scope: null,
+91 silly mapToRegistry   name: 'grunt-contrib-watch',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri http://registry.npm.alibaba-inc.com/grunt-contrib-watch
+93 verbose addNameRange registry:http://registry.npm.alibaba-inc.com/grunt-contrib-watch not in flight; fetching
+94 verbose request uri http://registry.npm.alibaba-inc.com/grunt-jsdoc
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 10:58:19
+97 verbose request id e1db11e2d3dd8550
+98 http request GET http://registry.npm.alibaba-inc.com/grunt-jsdoc
+99 verbose request uri http://registry.npm.alibaba-inc.com/grunt-bower-task
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 10:58:19
+102 http request GET http://registry.npm.alibaba-inc.com/grunt-bower-task
+103 verbose request uri http://registry.npm.alibaba-inc.com/grunt-contrib-concat
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 10:58:19
+106 http request GET http://registry.npm.alibaba-inc.com/grunt-contrib-concat
+107 verbose request uri http://registry.npm.alibaba-inc.com/grunt-contrib-copy
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 10:58:19
+110 http request GET http://registry.npm.alibaba-inc.com/grunt-contrib-copy
+111 verbose request uri http://registry.npm.alibaba-inc.com/grunt-contrib-uglify
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 10:58:19
+114 http request GET http://registry.npm.alibaba-inc.com/grunt-contrib-uglify
+115 verbose request uri http://registry.npm.alibaba-inc.com/grunt-contrib-watch
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 10:58:19
+118 http request GET http://registry.npm.alibaba-inc.com/grunt-contrib-watch
+119 verbose request uri http://registry.npm.alibaba-inc.com/grunt
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 10:58:19
+122 http request GET http://registry.npm.alibaba-inc.com/grunt
+123 http 401 http://registry.npm.alibaba-inc.com/grunt-contrib-copy
+124 verbose headers { server: 'Tengine',
+124 verbose headers   date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+124 verbose headers   'content-type': 'application/json; charset=utf-8',
+124 verbose headers   'content-length': '28',
+124 verbose headers   connection: 'close',
+124 verbose headers   'x-powered-by': 'Begg',
+124 verbose headers   'x-server-id': 'v101109239.sqa.zmf',
+124 verbose headers   location: '/login?redirect=%2Fgrunt-contrib-copy',
+124 verbose headers   'x-frame-options': 'SAMEORIGIN',
+124 verbose headers   'x-xss-protection': '1; mode=block',
+124 verbose headers   'x-content-type-options': 'nosniff',
+124 verbose headers   'x-download-options': 'noopen',
+124 verbose headers   'strict-transport-security': 'max-age=31536000',
+124 verbose headers   'x-readtime': '2' }
+125 silly get cb [ 401,
+125 silly get   { server: 'Tengine',
+125 silly get     date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+125 silly get     'content-type': 'application/json; charset=utf-8',
+125 silly get     'content-length': '28',
+125 silly get     connection: 'close',
+125 silly get     'x-powered-by': 'Begg',
+125 silly get     'x-server-id': 'v101109239.sqa.zmf',
+125 silly get     location: '/login?redirect=%2Fgrunt-contrib-copy',
+125 silly get     'x-frame-options': 'SAMEORIGIN',
+125 silly get     'x-xss-protection': '1; mode=block',
+125 silly get     'x-content-type-options': 'nosniff',
+125 silly get     'x-download-options': 'noopen',
+125 silly get     'strict-transport-security': 'max-age=31536000',
+125 silly get     'x-readtime': '2' } ]
+126 http 401 http://registry.npm.alibaba-inc.com/grunt-contrib-uglify
+127 verbose headers { server: 'Tengine',
+127 verbose headers   date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+127 verbose headers   'content-type': 'application/json; charset=utf-8',
+127 verbose headers   'content-length': '28',
+127 verbose headers   connection: 'close',
+127 verbose headers   'x-powered-by': 'Begg',
+127 verbose headers   'x-server-id': 'v101109239.sqa.zmf',
+127 verbose headers   location: '/login?redirect=%2Fgrunt-contrib-uglify',
+127 verbose headers   'x-frame-options': 'SAMEORIGIN',
+127 verbose headers   'x-xss-protection': '1; mode=block',
+127 verbose headers   'x-content-type-options': 'nosniff',
+127 verbose headers   'x-download-options': 'noopen',
+127 verbose headers   'strict-transport-security': 'max-age=31536000',
+127 verbose headers   'x-readtime': '5' }
+128 silly get cb [ 401,
+128 silly get   { server: 'Tengine',
+128 silly get     date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+128 silly get     'content-type': 'application/json; charset=utf-8',
+128 silly get     'content-length': '28',
+128 silly get     connection: 'close',
+128 silly get     'x-powered-by': 'Begg',
+128 silly get     'x-server-id': 'v101109239.sqa.zmf',
+128 silly get     location: '/login?redirect=%2Fgrunt-contrib-uglify',
+128 silly get     'x-frame-options': 'SAMEORIGIN',
+128 silly get     'x-xss-protection': '1; mode=block',
+128 silly get     'x-content-type-options': 'nosniff',
+128 silly get     'x-download-options': 'noopen',
+128 silly get     'strict-transport-security': 'max-age=31536000',
+128 silly get     'x-readtime': '5' } ]
+129 http 401 http://registry.npm.alibaba-inc.com/grunt-bower-task
+130 verbose headers { server: 'Tengine',
+130 verbose headers   date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+130 verbose headers   'content-type': 'application/json; charset=utf-8',
+130 verbose headers   'content-length': '28',
+130 verbose headers   connection: 'close',
+130 verbose headers   'x-powered-by': 'Begg',
+130 verbose headers   'x-server-id': 'v101109239.sqa.zmf',
+130 verbose headers   location: '/login?redirect=%2Fgrunt-bower-task',
+130 verbose headers   'x-frame-options': 'SAMEORIGIN',
+130 verbose headers   'x-xss-protection': '1; mode=block',
+130 verbose headers   'x-content-type-options': 'nosniff',
+130 verbose headers   'x-download-options': 'noopen',
+130 verbose headers   'strict-transport-security': 'max-age=31536000',
+130 verbose headers   'x-readtime': '1' }
+131 silly get cb [ 401,
+131 silly get   { server: 'Tengine',
+131 silly get     date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+131 silly get     'content-type': 'application/json; charset=utf-8',
+131 silly get     'content-length': '28',
+131 silly get     connection: 'close',
+131 silly get     'x-powered-by': 'Begg',
+131 silly get     'x-server-id': 'v101109239.sqa.zmf',
+131 silly get     location: '/login?redirect=%2Fgrunt-bower-task',
+131 silly get     'x-frame-options': 'SAMEORIGIN',
+131 silly get     'x-xss-protection': '1; mode=block',
+131 silly get     'x-content-type-options': 'nosniff',
+131 silly get     'x-download-options': 'noopen',
+131 silly get     'strict-transport-security': 'max-age=31536000',
+131 silly get     'x-readtime': '1' } ]
+132 http 401 http://registry.npm.alibaba-inc.com/grunt-jsdoc
+133 verbose headers { server: 'Tengine',
+133 verbose headers   date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+133 verbose headers   'content-type': 'application/json; charset=utf-8',
+133 verbose headers   'content-length': '28',
+133 verbose headers   connection: 'close',
+133 verbose headers   'x-powered-by': 'Begg',
+133 verbose headers   'x-server-id': 'v101109239.sqa.zmf',
+133 verbose headers   location: '/login?redirect=%2Fgrunt-jsdoc',
+133 verbose headers   'x-frame-options': 'SAMEORIGIN',
+133 verbose headers   'x-xss-protection': '1; mode=block',
+133 verbose headers   'x-content-type-options': 'nosniff',
+133 verbose headers   'x-download-options': 'noopen',
+133 verbose headers   'strict-transport-security': 'max-age=31536000',
+133 verbose headers   'x-readtime': '1' }
+134 silly get cb [ 401,
+134 silly get   { server: 'Tengine',
+134 silly get     date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+134 silly get     'content-type': 'application/json; charset=utf-8',
+134 silly get     'content-length': '28',
+134 silly get     connection: 'close',
+134 silly get     'x-powered-by': 'Begg',
+134 silly get     'x-server-id': 'v101109239.sqa.zmf',
+134 silly get     location: '/login?redirect=%2Fgrunt-jsdoc',
+134 silly get     'x-frame-options': 'SAMEORIGIN',
+134 silly get     'x-xss-protection': '1; mode=block',
+134 silly get     'x-content-type-options': 'nosniff',
+134 silly get     'x-download-options': 'noopen',
+134 silly get     'strict-transport-security': 'max-age=31536000',
+134 silly get     'x-readtime': '1' } ]
+135 http 401 http://registry.npm.alibaba-inc.com/grunt-contrib-concat
+136 verbose headers { server: 'Tengine',
+136 verbose headers   date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+136 verbose headers   'content-type': 'application/json; charset=utf-8',
+136 verbose headers   'content-length': '28',
+136 verbose headers   connection: 'close',
+136 verbose headers   'x-powered-by': 'Begg',
+136 verbose headers   'x-server-id': 'v101109239.sqa.zmf',
+136 verbose headers   location: '/login?redirect=%2Fgrunt-contrib-concat',
+136 verbose headers   'x-frame-options': 'SAMEORIGIN',
+136 verbose headers   'x-xss-protection': '1; mode=block',
+136 verbose headers   'x-content-type-options': 'nosniff',
+136 verbose headers   'x-download-options': 'noopen',
+136 verbose headers   'strict-transport-security': 'max-age=31536000',
+136 verbose headers   'x-readtime': '1' }
+137 silly get cb [ 401,
+137 silly get   { server: 'Tengine',
+137 silly get     date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+137 silly get     'content-type': 'application/json; charset=utf-8',
+137 silly get     'content-length': '28',
+137 silly get     connection: 'close',
+137 silly get     'x-powered-by': 'Begg',
+137 silly get     'x-server-id': 'v101109239.sqa.zmf',
+137 silly get     location: '/login?redirect=%2Fgrunt-contrib-concat',
+137 silly get     'x-frame-options': 'SAMEORIGIN',
+137 silly get     'x-xss-protection': '1; mode=block',
+137 silly get     'x-content-type-options': 'nosniff',
+137 silly get     'x-download-options': 'noopen',
+137 silly get     'strict-transport-security': 'max-age=31536000',
+137 silly get     'x-readtime': '1' } ]
+138 http 401 http://registry.npm.alibaba-inc.com/grunt
+139 verbose headers { server: 'Tengine',
+139 verbose headers   date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+139 verbose headers   'content-type': 'application/json; charset=utf-8',
+139 verbose headers   'content-length': '28',
+139 verbose headers   connection: 'close',
+139 verbose headers   'x-powered-by': 'Begg',
+139 verbose headers   'x-server-id': 'v101109239.sqa.zmf',
+139 verbose headers   location: '/login?redirect=%2Fgrunt',
+139 verbose headers   'x-frame-options': 'SAMEORIGIN',
+139 verbose headers   'x-xss-protection': '1; mode=block',
+139 verbose headers   'x-content-type-options': 'nosniff',
+139 verbose headers   'x-download-options': 'noopen',
+139 verbose headers   'strict-transport-security': 'max-age=31536000',
+139 verbose headers   'x-readtime': '1' }
+140 silly get cb [ 304, undefined ]
+141 verbose get saving undefined to C:\Users\qs\AppData\Roaming\tnpm-cache\registry.npm.alibaba-inc.com\grunt\.cache.json
+142 verbose correctMkdir C:\Users\qs\AppData\Roaming\tnpm-cache correctMkdir not in flight; initializing
+143 http 401 http://registry.npm.alibaba-inc.com/grunt-contrib-watch
+144 verbose headers { server: 'Tengine',
+144 verbose headers   date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+144 verbose headers   'content-type': 'application/json; charset=utf-8',
+144 verbose headers   'content-length': '28',
+144 verbose headers   connection: 'close',
+144 verbose headers   'x-powered-by': 'Begg',
+144 verbose headers   'x-server-id': 'v101109239.sqa.zmf',
+144 verbose headers   location: '/login?redirect=%2Fgrunt-contrib-watch',
+144 verbose headers   'x-frame-options': 'SAMEORIGIN',
+144 verbose headers   'x-xss-protection': '1; mode=block',
+144 verbose headers   'x-content-type-options': 'nosniff',
+144 verbose headers   'x-download-options': 'noopen',
+144 verbose headers   'strict-transport-security': 'max-age=31536000',
+144 verbose headers   'x-readtime': '0' }
+145 silly get cb [ 401,
+145 silly get   { server: 'Tengine',
+145 silly get     date: 'Tue, 16 Aug 2016 02:58:19 GMT',
+145 silly get     'content-type': 'application/json; charset=utf-8',
+145 silly get     'content-length': '28',
+145 silly get     connection: 'close',
+145 silly get     'x-powered-by': 'Begg',
+145 silly get     'x-server-id': 'v101109239.sqa.zmf',
+145 silly get     location: '/login?redirect=%2Fgrunt-contrib-watch',
+145 silly get     'x-frame-options': 'SAMEORIGIN',
+145 silly get     'x-xss-protection': '1; mode=block',
+145 silly get     'x-content-type-options': 'nosniff',
+145 silly get     'x-download-options': 'noopen',
+145 silly get     'strict-transport-security': 'max-age=31536000',
+145 silly get     'x-readtime': '0' } ]
+146 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.2 <0.5.0', hasData: true }
+147 silly addNameRange versions [ undefined, [] ]
+148 verbose stack TypeError: Cannot read property 'latest' of undefined
+148 verbose stack     at next (C:\Users\qs\AppData\Roaming\npm\node_modules\tnpm\node_modules\npm\lib\cache\add-named.js:248:35)
+148 verbose stack     at setData (C:\Users\qs\AppData\Roaming\npm\node_modules\tnpm\node_modules\npm\lib\cache\add-named.js:236:5)
+148 verbose stack     at RES (C:\Users\qs\AppData\Roaming\npm\node_modules\tnpm\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+148 verbose stack     at f (C:\Users\qs\AppData\Roaming\npm\node_modules\tnpm\node_modules\npm\node_modules\once\once.js:17:25)
+148 verbose stack     at fixName (C:\Users\qs\AppData\Roaming\npm\node_modules\tnpm\node_modules\npm\lib\cache\add-named.js:29:5)
+148 verbose stack     at saved (C:\Users\qs\AppData\Roaming\npm\node_modules\tnpm\node_modules\npm\lib\cache\caching-client.js:173:7)
+148 verbose stack     at C:\Users\qs\AppData\Roaming\npm\node_modules\tnpm\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+148 verbose stack     at FSReqWrap.oncomplete (fs.js:117:15)
+149 verbose cwd e:\aliMusic\ix-scratchcard-master-4c48355c55a8071ffb78552d3a8c85eead3ea04e
+150 error Windows_NT 6.1.7601
+151 error argv "c:\\Program Files\\nodejs\\node.exe" "C:\\Users\\qs\\AppData\\Roaming\\npm\\node_modules\\tnpm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--cache=C:\\Users\\qs\\AppData\\Roaming\\tnpm-cache" "--node_sqlite3_binary_host_mirror=https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/" "--fse_binary_host_mirror=https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/fsevents/" "--no-proxy" "--disturl=https://tnpm-hz.oss-cn-hangzhou.aliyuncs.com/dist/node" "--userconfig=C:\\Users\\qs\\.tnpmrc" "--registry=http://registry.npm.alibaba-inc.com"
+152 error node v6.2.0
+153 error npm  v2.15.9
+154 error Cannot read property 'latest' of undefined
+155 error If you need help, you may report this error at:
+155 error     <https://github.com/npm/npm/issues>
+156 verbose exit [ 1, true ]

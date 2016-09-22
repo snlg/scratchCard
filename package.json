@@ -1,0 +1,20 @@
+{
+  "name": "ix-scratchcard",
+  "version": "1.0.0",
+  "description": "互动组件-刮刮卡",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:h5-interaction/ix-scratchcard.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-jsdoc": "<=3.3.0",
+    "grunt-bower-task": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "author": "zhenglin",
+  "license": "ISC"
+}
